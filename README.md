@@ -18,7 +18,13 @@ The Laplacian filter is a high-pass filter widely used in image processing to de
 
 ### Laplacian Kernel
 The convolution kernel used for the filter is:
-![Matrix](https://latex.codecogs.com/png.latex?\begin{bmatrix}0&1&0\\1&-4&1\\0&1&0\end{bmatrix})
+$$
+\begin{bmatrix}
+  0 & 1 & 0 \\
+  1 & -4 & 1 \\
+  0 & 1 & 0
+\end{bmatrix}
+$$
 
 
 ---
@@ -93,10 +99,10 @@ While this project focuses on the Laplacian filter, future extensions could invo
    git clone https://github.com/your-repo/laplacian-filter.git
    cd laplacian-filter
    ```
-   2. **Simulate**
+2. **Simulate**
       - Run the Verilog testbench in your preferred simulation tool
-  3. **Analyze Results**
+3. **Analyze Results**
      - Use the provided Python script (reconstruct.ipynb) to visualize the output image.
-  4. **Modify**
+4. **Modify**
      - Use the modular Verilog code for further enhancements or experiments.
     
