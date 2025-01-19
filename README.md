@@ -134,7 +134,7 @@ While this project focuses on the Laplacian filter, future extensions could invo
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-repo/laplacian-filter.git
+   git clone https://github.com/jaymehta132/Laplacian_Filter_in_VLSI/laplacian-filter.git
    cd laplacian-filter
    ```
 2. **Simulate**
