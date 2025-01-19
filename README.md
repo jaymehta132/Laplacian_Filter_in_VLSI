@@ -143,4 +143,7 @@ While this project focuses on the Laplacian filter, future extensions could invo
      - Use the provided Python script (reconstruct.ipynb) to visualize the output image.
 4. **Modify**
      - Use the modular Verilog code for further enhancements or experiments.
+
+## Acknowledgements
+We would like to thank Prof. Laxmeesha Somappa for his guidance throughout the course.
     
