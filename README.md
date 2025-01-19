@@ -59,20 +59,43 @@ The convolution kernel used for the filter is:
 
 ```plaintext                
 ├── Verilog/                   
-│   ├── laplacian.v      # Source code for Auto-Encoders
-│   ├── laplacian_TB.v      # Source code for Auto-Encoders
+│   ├── laplacian.v     
+│   ├── laplacian_TB.v    
 ├── Synthesis/                   
-│   ├── logs
-│   ├──── 1-synthesis.log
-│   ├──── 2-sta.log
-├── Greyscale/                   
-│   ├── GreyScaleJPEG.ipynb     # Source code for Greyscale JPEG Compression    
-│   ├── README.txt              # Description of files
-│   ├── main.m
-│   ├── process_and_compress.m
-├── Report/                # Detailed project report (PDF)
-│   ├── report.pdf
-└── README.md              # Project description and instructions
+│   ├── Logs/
+│     ├── 1-synthesis.log
+│     ├── 2-sta.log
+│   ├── RTL/
+│     ├── laplacian.v
+│     ├── waveforms.vcd
+├── Physical Design/                   
+│   ├── Logs/
+│     ├── 12-cts.log
+│     ├── 13-cts_sta.log
+│     ├── 14-resizer_design.log
+│     ├── 15-rsz_design_sta.log
+│     ├── 16-resizer_timing.log
+│     ├── 17-rsz_timing_sta.log
+│     ├── 18-global.log
+│     ├── 18-global_write_netlist.log
+│     ├── 20-grt_sta.log
+│     ├── 21-fill.log
+│     ├── 22-detailed.log
+│     ├── 23-wire_lengths.log
+│   ├── RTL/
+│     ├── laplacian.nl.v
+│     ├── laplacian.pnl.v
+│     ├── waveforms.vcd
+├── Physical Verification/                   
+│   ├── 32-drc.log     
+│   ├── 36-arc.log      
+├── Physical Verification/                   
+│   ├── image.txt    
+│   ├── output.txt    
+│   ├── output_file.txt    
+│   ├── reconstruct.ipynb     
+├── Group_39_Report.pdf
+└── README.md             
 ```
 ---
 
