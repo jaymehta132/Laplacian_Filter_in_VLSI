@@ -18,9 +18,9 @@ The Laplacian filter is a high-pass filter widely used in image processing to de
 
 ### Laplacian Kernel
 The convolution kernel used for the filter is:
-| | | |
-|---|---|---|
+
 | 0 | 1 | 0 |
+|---|---|---|
 | 1 | -4 | 1 |
 | 0 | 1 | 0 |
 
@@ -54,9 +54,26 @@ The convolution kernel used for the filter is:
   - Generating test images (`image.txt`)
   - Reconstructing output images from `output_file.txt`
 
-### 5. **GDS Files**
-- Layout files generated during the design phase.
+---
+## Repository Structure
 
+```plaintext                
+├── Verilog/                   
+│   ├── laplacian.v      # Source code for Auto-Encoders
+│   ├── laplacian_TB.v      # Source code for Auto-Encoders
+├── Synthesis/                   
+│   ├── logs
+│   ├──── 1-synthesis.log
+│   ├──── 2-sta.log
+├── Greyscale/                   
+│   ├── GreyScaleJPEG.ipynb     # Source code for Greyscale JPEG Compression    
+│   ├── README.txt              # Description of files
+│   ├── main.m
+│   ├── process_and_compress.m
+├── Report/                # Detailed project report (PDF)
+│   ├── report.pdf
+└── README.md              # Project description and instructions
+```
 ---
 
 ## Results
