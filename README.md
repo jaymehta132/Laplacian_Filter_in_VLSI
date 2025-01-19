@@ -18,6 +18,7 @@ The Laplacian filter is a high-pass filter widely used in image processing to de
 
 ### Laplacian Kernel
 The convolution kernel used for the filter is:
+
 | 0 | 1 | 0 |
 | 1 | -4 | 1 |
 | 0 | 1 | 0 |
