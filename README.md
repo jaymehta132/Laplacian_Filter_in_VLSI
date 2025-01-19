@@ -63,29 +63,29 @@ The convolution kernel used for the filter is:
 │   ├── laplacian_TB.v    
 ├── Synthesis/                   
 │   ├── Logs/
-│     ├── 1-synthesis.log
-│     ├── 2-sta.log
+│   │   ├── 1-synthesis.log
+│   │   ├── 2-sta.log
 │   ├── RTL/
-│     ├── laplacian.v
-│     ├── waveforms.vcd
+│   │   ├── laplacian.v
+│   │   ├── waveforms.vcd
 ├── Physical Design/                   
 │   ├── Logs/
-│     ├── 12-cts.log
-│     ├── 13-cts_sta.log
-│     ├── 14-resizer_design.log
-│     ├── 15-rsz_design_sta.log
-│     ├── 16-resizer_timing.log
-│     ├── 17-rsz_timing_sta.log
-│     ├── 18-global.log
-│     ├── 18-global_write_netlist.log
-│     ├── 20-grt_sta.log
-│     ├── 21-fill.log
-│     ├── 22-detailed.log
-│     ├── 23-wire_lengths.log
+│   │   ├── 12-cts.log
+│   │   ├── 13-cts_sta.log
+│   │   ├── 14-resizer_design.log
+│   │   ├── 15-rsz_design_sta.log
+│   │   ├── 16-resizer_timing.log
+│   │   ├── 17-rsz_timing_sta.log
+│   │   ├── 18-global.log
+│   │   ├── 18-global_write_netlist.log
+│   │   ├── 20-grt_sta.log
+│   │   ├── 21-fill.log
+│   │   ├── 22-detailed.log
+│   │   ├── 23-wire_lengths.log
 │   ├── RTL/
-│     ├── laplacian.nl.v
-│     ├── laplacian.pnl.v
-│     ├── waveforms.vcd
+│   │   ├── laplacian.nl.v
+│   │   ├── laplacian.pnl.v
+│   │   ├── waveforms.vcd
 ├── Physical Verification/                   
 │   ├── 32-drc.log     
 │   ├── 36-arc.log      
